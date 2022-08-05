@@ -34,7 +34,7 @@
         <label for="exampleInputEmail1" class="form-label">Stock Barang</label>
         <input type="number" class="form-control" id="stock_barang" name="stock_barang" placeholder="Input Stock Barang" required>
       </div>
-      <button type="submit" class="btn btn-info text-white mb-4" name="tambah">Simpan</button>
+      <button type="submit" class="btn btn-info text-white mb-4" name="tambah" onClick="return confirm('Apakah data yang anda masukkan sudah sesuai?');">Simpan</button>
     </form>
   </div>
 <?php include 'layout/footer.php' ?>

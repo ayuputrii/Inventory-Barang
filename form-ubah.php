@@ -39,7 +39,7 @@
         <label for="exampleInputEmail1" class="form-label">Stock Barang</label>
         <input type="number" class="form-control" id="stock_barang" name="stock_barang" value=<?= $barang['stock_barang']; ?> placeholder="Input Stock Barang" required>
       </div>
-      <button type="submit" class="btn btn-info text-white mb-4" name="ubah_barang">Ubah</button>
+      <button type="submit" class="btn btn-info text-white mb-4" name="ubah_barang" onClick="return confirm('Apakah data yang anda ubah sudah sesuai?');">Ubah</button>
     </form>
   </div>
 <?php include 'layout/footer.php' ?>
